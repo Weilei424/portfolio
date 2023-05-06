@@ -1,6 +1,32 @@
+* {
+    color: #d9bcb6;
+    background-color: #0f1029;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 #pfp {
     width: 30em;
     height: auto;
-    margin-right: 10px;
-    float: right;
+    margin-right: 2em;
+    margin-top: 5em;
+    /*float: right;*/
+}
+
+h2 {
+    margin-left: 100px;
+    text-align: center;
+}
+
+#stack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    text-align: center;
 }

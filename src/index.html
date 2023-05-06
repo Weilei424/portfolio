@@ -7,39 +7,43 @@
     <title>Zhenxu (Mason) Wang</title>
     <link rel="stylesheet" type="text/css" href="style.css" title="style" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="entire">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <div class="entire">
         <div class="welcome">
             <h1 id="introLarge">Hi, my name is Zhenxu (Mason) Wang</h1>
-            <img id="pfp" src="./image/pfp.JPG" alt="Profile Picture">
+            <p id="intro">I'm a third year Computer Science student at York University.</p>
+            <img id="pfp" src="./image/pfp.JPG" class="img-fluid" alt="Profile Picture">
         </div>
         <div id="aboutMe">
-            <p id="intro">I'm a third year Computer Science student at York University.</p>
-            <div id="stack">
-                <h2 id="languages" class="title">Programming Languages:</h2>
-                <ul id="lang">
-                    <li>Java</li>
-                    <li>Go</li>
-                    <li>C</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <h2 id="tools" class="title">Tools and Frameworks:</h2>
-                <ul id="tool">
-                    <li>Spring Boot</li>
-                    <li>Spring</li>
-                    <li>Docker</li>
-                    <li>MySQL</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>JDBC</li>
-                    <li>Unix</li>
-                    <li>Jira</li>
-                </ul>
+            <div id="stack" class="row">
+                <div class="col">
+                    <h2 id="languages">Programming Languages:</h2>
+                    <ul id="lang">
+                        <li>Java</li>
+                        <li>Go</li>
+                        <li>C</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2 id="tools">Tools and Frameworks:</h2>
+                    <ul id="tool">
+                        <li>Spring Boot</li>
+                        <li>Spring</li>
+                        <li>Docker</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>JDBC</li>
+                        <li>Unix</li>
+                        <li>Jira</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="projects">
@@ -62,6 +66,9 @@
             <div class="para">
                 <p class="paraTitle">Bridges Golf Course</p>
             </div>
+        </div>
+        <div id="contact">
+
         </div>
     </div>
 </body>
