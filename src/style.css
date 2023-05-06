@@ -7,13 +7,12 @@
 body {
     width: 1960px;
     margin: 0 auto;
-  }
+}
 
 #pfp {
     width: 30em;
     height: auto;
-    margin-right: 2em;
-    margin-top: 5em;
+    margin-top: 2em;
     float: right;
 }
 
@@ -23,7 +22,7 @@ h2 {
 }
 
 .welcome {
-    margin-top: 2%;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -43,8 +42,12 @@ h2 {
 #stack {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    margin-top: 3%;
+    margin-top: 100px;
+}
+
+#list {
+    height: 700px;
+    text-align: center;
 }
 
 #projects {
@@ -55,4 +58,9 @@ h2 {
 #exp {
     align-items: center;
     margin-top: 3%;
+}
+
+#contacts {
+    margin-top: 2em;
+    text-align: center;
 }
