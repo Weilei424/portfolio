@@ -1,10 +1,11 @@
 * {
     color: #d9bcb6;
     background-color: #0f1029;
+    font-size: 20px;
 }
 
 body {
-    width: 100%;
+    width: 1960px;
     margin: 0 auto;
   }
 
@@ -13,7 +14,7 @@ body {
     height: auto;
     margin-right: 2em;
     margin-top: 5em;
-    /*float: right;*/
+    float: right;
 }
 
 h2 {
@@ -21,12 +22,37 @@ h2 {
     text-align: center;
 }
 
+.welcome {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#aboutMe {
+    font-family: Lucida Console;
+}
+
+#introLarge {
+    font-size: 4.5em;
+}
+
+#intro {
+    margin-top: 1%;
+    font-size: 2em;
+}
+
 #stack {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    margin-top: 3%;
 }
 
-.welcome {
-    text-align: center;
+#projects {
+    align-items: center;
+    margin-top: 3%;
+}
+
+#exp {
+    align-items: center;
+    margin-top: 3%;
 }
