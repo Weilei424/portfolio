@@ -42,16 +42,32 @@ h2 {
     margin-top: 100px;
 }
 
+h2#languages {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
 }
 
 ul#lang li {
+    display: flex;
+    justify-content: center;
+}
+
+ul#tool li {
+    display: flex;
+    justify-content: center;
+}
+
+#lag {
     font-size: 40px;
 }
-  
-ul#tool li {
-    font-size: 40px;
+
+#icon {
+    width: auto;
+    height: 40px;
+    font-size: 60px;
 }
 
 #list {
