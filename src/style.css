@@ -28,12 +28,12 @@ h2 {
 
 #introLarge {
     font-family: Lucida Sans Typewriter;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 #intro {
     margin-top: 1%;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 #stack {
@@ -81,4 +81,11 @@ ul#tool li {
   
 .contacts a {
     margin: 0 10px;
- }
+}
+
+#footer {
+    text-align: right;
+    margin-right: 15px;
+    font-size: 17px;
+    color: darkgray;
+}
