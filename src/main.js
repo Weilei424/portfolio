@@ -17,3 +17,13 @@ function blurImage2() {
     var image = document.getElementById('card-img-top2');
     image.style.filter = 'blur(5px)';
 }
+
+function unblurImage3() {
+    var image = document.getElementById('card-img-top3');
+    image.style.filter = 'blur(0)';
+}
+
+function blurImage3() {
+    var image = document.getElementById('card-img-top3');
+    image.style.filter = 'blur(5px)';
+}
