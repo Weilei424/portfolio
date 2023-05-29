@@ -118,8 +118,8 @@
             <h2 id="project" class="title">Projects</h2>
             <div id="projcards">
                 <div class="card" style="width: 25rem; height: 25rem;" onmouseover="unblurImage1()" onmouseout="blurImage1()">
-                    <img src="./image/ww.JPG" class="card-img-top" id="card-img-top1" alt="Wallet Watcher App">
-                    <a href="https://github.com/Weilei424/Wallet-Watcher" target="_blank" id="card-link1" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; color: white; text-align: center;">View details</a>
+                    <img src="./image/ww.JPG" class="card-img-top" id="card-img-top1" alt="Wallet Watcher App" onclick="jumpTo1()">
+                    <div class="click-text" id="card-text1" onclick="jumpTo1()">Jump to GitHub repo</div>
                     <div class="card-body">
                         <p class="card-text">A budget management and visualization application. Supports individual user accounts, customized categorization options and data visualized in
                             line/pie charts. Uses CircleCI and GitHub Workflow for automation. Database holds at Microsoft Azure Database for MySQL.</p>
@@ -127,6 +127,7 @@
                 </div>
                 <div class="card" style="width: 25rem; height: 25rem;" onmouseover="unblurImage2()" onmouseout="blurImage2()">
                     <img src="./image/portfolio.JPG" class="card-img-top" id="card-img-top2" alt="Portfolio Website">
+                    <div  id="card-text2">It is the site you are looking at!</div>
                     <div class="card-body">
                         <p class="card-text">A personal portfolio website, which you are looking at right now!</p>
                     </div>

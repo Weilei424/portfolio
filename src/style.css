@@ -92,9 +92,22 @@ ul#tool li {
     background-color: black;
 }
 
+.click-text {
+    display: none; 
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    color: white; 
+    text-align: center;
+    cursor: pointer;
+}
+
 .card-img-top {
     height: 300px;
     filter: blur(0);
+    cursor: pointer;
 }
 
 .card-text {

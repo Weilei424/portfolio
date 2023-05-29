@@ -1,25 +1,33 @@
 function unblurImage1() {
     var image = document.getElementById('card-img-top1');
-    var link = document.getElementById('card-link1');
+    var text = document.getElementById('card-text1');
     image.style.filter = 'blur(5px)';
-    link.style.display = 'block';
+    text.style.display = 'block';
 }
 
 function blurImage1() {
     var image = document.getElementById('card-img-top1');
-    var link = document.getElementById('card-link1');
+    var text = document.getElementById('card-text1');
     image.style.filter = 'blur(0)';
-    link.style.display = 'none';
+    text.style.display = 'none';
+}
+
+function jumpTo1() {
+    window.open("https://github.com/Weilei424/Wallet-Watcher", '_blank');
 }
 
 function unblurImage2() {
     var image = document.getElementById('card-img-top2');
+    var text = document.getElementById('card-text2');
     image.style.filter = 'blur(5px)';
+    text.style.display = 'block';
 }
 
 function blurImage2() {
     var image = document.getElementById('card-img-top2');
+    var text = document.getElementById('card-text2');
     image.style.filter = 'blur(0)';
+    text.style.display = 'none';
 }
 
 function unblurImage3() {
