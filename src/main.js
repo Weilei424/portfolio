@@ -48,7 +48,7 @@ function blurImage3() {
 }
 
 function jumpTo3() {
-    window.open("https://github.com/Weilei424/Wallet-Watcher", '_blank');
+    window.open("https://github.com/Weilei424/google-trends", '_blank');
 }
 
 function unblurImage4() {
@@ -67,7 +67,7 @@ function blurImage4() {
 }
 
 function jumpTo4() {
-    window.open("https://github.com/Weilei424/Wallet-Watcher", '_blank');
+    window.open("https://github.com/Weilei424/go-translate-api", '_blank');
 }
 
 function unblurImage5() {
